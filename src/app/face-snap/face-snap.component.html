@@ -5,7 +5,7 @@
   <h2>{{ faceSnap.title | uppercase }}</h2>
   <p>
     Mis en ligne
-    {{ faceSnap.createdDate | date: "à hh:mm, le dd MMMM yyyy " }}
+    {{ faceSnap.createdDate | date: "à hh:mm, le  dd MMMM yyyy " }}
   </p>
   <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title" />
   <p>{{ faceSnap.description }}</p>
@@ -16,4 +16,5 @@
       >💪 {{ faceSnap.snaps }}</span
     >
   </p>
+  <p>{{ 344.36 | currency: "EUR":"code" }}</p>
 </div>
