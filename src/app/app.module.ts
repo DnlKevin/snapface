@@ -9,6 +9,7 @@ import { FaceSnapListComponent } from './face-snap-list/face-snap-list.component
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LandindPageComponent } from './landind-page/landind-page.component';
+import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { LandindPageComponent } from './landind-page/landind-page.component';
     FaceSnapListComponent,
     HeaderComponent,
     LandindPageComponent,
+    SingleFaceSnapComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
